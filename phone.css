@@ -1,0 +1,25 @@
+logo img{
+    margin: 4px 38px -24px 6px;
+}
+
+nav ul li{
+    padding: 6px 21px;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro1{
+    width: auto;
+    height: auto;
+}
+.intro2{
+    width: auto;
+    height: auto;
+}
+.intro3{
+    width: auto;
+    height: auto;
+}

@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.animation {
+    height: 2px;
+    background-color: red;
+    animation: load 1s ease-in-out;
+}
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 80vw;
+    }
+
+    100% {
+        width: 100vw;
+    }
+}
+
+header {
+    background-color: aqua;
+    align-items: center;
+    display: grid;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    margin: 10px 0;
+    padding: 0 23px;
+    top: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 6px 37px;
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    text-shadow: #ffffff;
+}
+
+nav ul li:hover {
+    display: inline-block;
+    padding: 4px 35px;
+    font-size: 22px;
+    font-style: none;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    width: 40px;
+    margin: 2px 38px -24px 6px;
+    display: inline;
+}
+
+.background {
+    background-image: url('mountain.png');
+    background-size: 700px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    /* background-color: black; */
+}
+
+.background img {
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    left: 100px;
+    animation: rotate 1s ease-in-out infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.background h1 {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-size: 3rem;
+    width: 30%;
+    margin: 0 auto;
+    font-family: 'Courgette', cursive
+}
+
+.background h3 {
+    text-align: center;
+    position: relative;
+    top: 54px;
+    font-size: 1.7rem;
+    width: 30%;
+    margin: 0 auto;
+    font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+}
+
+.intro1 {
+    height: 750px;
+    background-color: red;
+    /* display: flex; */
+    width: 28vw;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: whitesmoke;
+    text-align: justify;
+}
+
+.intro1 img {
+    width: 151px;
+    display: block;
+    margin: 30px 100px;
+}
+
+.intro2 {
+    height: 750px;
+    background-color: rgba(0, 0, 255, 0.592);
+    width: 28vw;
+    /* display: flex; */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: whitesmoke;
+    text-align: justify;
+}
+
+.intro2 img {
+    width: 151px;
+    display: block;
+    margin: 30px 100px;
+}
+
+.intro3 {
+    height: 750px;
+    width: 28vw;
+    background-color: rgb(0, 128, 73);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: whitesmoke;
+    text-align: justify;
+    /* display: flex; */
+}
+
+.intro3 img {
+    width: 151px;
+    display: block;
+    margin: 30px 100px;
+}
+
+.tab {
+    margin: 11px 70px;
+}
+
+hr {
+    border: 3px solid gray;
+    border-radius: 40px;
+    border-style: dotted;
+}
+
+
+
+.eh {
+    margin: 0px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.lastend {
+    height: 300px;
+    font-size: 1.2rem;
+    background-color: white;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 0px 0px 0px #000000;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 24px;
+    background: #0099ff;
+    padding: 10px 20px 10px 20px;
+    border: solid #3679a3 2px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #0099ff);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #0099ff);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #0099ff);
+    background-image: -o-linear-gradient(top, #3cb0fd, #0099ff);
+    background-image: linear-gradient(to bottom, #3cb0fd, #0099ff);
+    text-decoration: none;
+}
+
+footer {
+    height: 50px;
+    background-color: aqua;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding: 35px;
+}
+
+footer a {
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+footer p {
+    padding: 20px 0;
+}

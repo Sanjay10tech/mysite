@@ -1,0 +1,58 @@
+nav{
+    display: flex;
+    margin: 5px 0;
+    padding: 0;
+}
+
+.logo img{
+    width: 30px;
+    margin: 1px 4px 0px 4px;
+}
+
+nav ul li{
+    padding: 2px;
+    font-size: 1rem;
+}
+
+nav:hover{
+    padding: 1px;
+    font-size: 1.1rem;
+}
+
+.background{
+    background-size: 340px;
+    height:370px
+}
+.background h1{
+    font-size: 1.7rem;
+}
+.background h3{
+    font-size: 1rem;    
+}
+.background img{
+    width: 40px;
+    left: 25px;
+}
+
+.intro1 img{
+    width: 128px;
+    margin: 25px 30px;
+}
+.intro2 img{
+    width: 128px;
+    margin: 25px 30px;
+}
+.intro3 img{
+    width: 128px;
+    margin: 25px 30px;
+}
+
+.tab{
+    margin: 11px auto;
+}
+footer{
+    height: auto;
+}
+footer a{
+    padding: 0 6px;
+}
